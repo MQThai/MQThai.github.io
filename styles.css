@@ -1,11 +1,10 @@
 html {
     height: 100%;
     width: 100%;
-
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
     background: #f0f8ff;
     text-align: center;
-
 }
