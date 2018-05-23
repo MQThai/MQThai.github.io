@@ -1,22 +1,29 @@
-body {
-  background-color: #062F4F;
-	display: grid;
+:root {
+	--some-color: whitesmoke;
+	--some-size: 4em;
+	--some-complex-value: 5px 5px 3px #0E0B16, 0 0 2em rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255);
 }
 
-h1 {
-	color: whitesmoke;
+body {
+	background-color: #062F4F;
+	font-family: 'Muli', sans-serif;
 }
 
 p {
 	color: whitesmoke;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+/* https://atomiks.github.io/30-seconds-of-css/#custom-variables */
+/* source for the css on h1 */
+.attention {
+	color: var(--some-color);
+	font-size: var(--some-size);
+	text-shadow: var(--some-complex-value);
 }
 
 .container {
-  display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
