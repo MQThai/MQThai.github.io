@@ -10,7 +10,24 @@ body {
 }
 
 p {
-	color: whitesmoke;
+	color: #D5D5D5;
+}
+
+a {
+	color: #CF6766;
+}
+
+embed {
+	height: 50px;
+	width: 50px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 /* https://atomiks.github.io/30-seconds-of-css/#custom-variables */
@@ -19,11 +36,4 @@ p {
 	color: var(--some-color);
 	font-size: var(--some-size);
 	text-shadow: var(--some-complex-value);
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
