@@ -1,31 +1,22 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    height: 80vh;
-    flex-direction: column;
-    background: #cccbc6;
+  background-color: #062F4F;
+	display: grid;
 }
 
-header {
-    text-align: center;
-    font-size: xx-large;
-}
-div {
-    display: flex;
-    flex: 1;
-    background: #efd9c1;
+h1 {
+	color: whitesmoke;
 }
 
-main {
-    flex: 1;
-    background: #a9b7c0;
+p {
+	color: whitesmoke;
 }
 
-ul, aside {
-    flex: 0 0 12em;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-ul {
-    order: -1;
-    list-style: none;
+.container {
+  display: grid;
 }
