@@ -8,6 +8,12 @@ body {
 	background: rgba(6,47,79);
 	background: linear-gradient(rgba(0,0,0), rgba(6,47,79));
 	font-family: 'Muli', sans-serif;
+	text-align: center;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
 }
 
 p {
@@ -18,18 +24,12 @@ a {
 	color: #D5D5D5;
 }
 
-embed {
-	height: 50px;
-	width: 50px;
-}
-
 .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	width: 100%;
 }
 
 /* https://atomiks.github.io/30-seconds-of-css/#custom-variables */
